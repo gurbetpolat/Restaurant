@@ -1,0 +1,51 @@
+.headermenu-page {
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+.headerMenu__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+button{
+    background-color: pink;
+}
+    .headerMenu__menu {
+        position: absolute;
+        transition: all 0.4s ease-in-out;
+        top: 0px;
+        right: 0px;
+        overflow: hidden;
+        background-color: #fff;
+        border: 2px solid black;
+
+        ul{
+          
+            li{
+                list-style-type: none;
+              
+                a{
+                    border-bottom: 2px solid black;
+                    color: black;
+                    text-decoration: none;
+                    &:hover{
+                        color: pink;
+                    }
+                }
+            }
+        }
+
+        &.open {
+            width: 100%;
+           
+            display: block;
+        }
+
+        &.closed {
+            width: 0px;
+            border: 0px ;
+        }
+    }
+}

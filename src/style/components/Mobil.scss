@@ -1,0 +1,90 @@
+// .mobil-page {
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+
+
+//     #topnav {
+//         .menu-icon {
+//             padding: 10px;
+//             display: none;
+//             background-color: red;
+
+//             i {
+//                 color: yellow;
+//                 font-size: 1.5rem;
+//                 cursor: pointer;
+//             }
+//         }
+
+//         nav {
+//             background-color: greenyellow;
+
+//             ul {
+//                 list-style-type: none;
+//                 display: flex;
+//                 max-width: 1040px;
+//                 margin: auto;
+
+//                 li {
+//                     flex-grow: 1;
+//                     text-align: center;
+
+//                     a {
+//                         display: block;
+//                         padding: 12px 0;
+//                         text-decoration: none;
+//                         color: black;
+
+//                     }
+
+//                     &:hover {
+//                         background-color: white;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media (max-width:600px) {
+
+//     .mobil-page {
+
+
+
+//         #topnav {
+//             .menu-icon {
+//                 display: flex;
+//                 flex-direction: row-reverse;
+
+//             }
+
+//             nav {
+
+
+//                 ul {
+//                     flex-direction: column;
+//                     transform: scale(0);
+//                     position: absolute;
+//                     background-color: blue;
+//                     transform-origin: top;
+
+
+//                     li {
+//                         text-align: left;
+                    
+
+//                         a {
+//                             padding: 12px;
+//                         }
+
+//                         &:hover {}
+//                     }
+//                 }&:active{
+//                     transform: scale(1);
+//                 }
+//             }
+//         }
+//     }
+// }

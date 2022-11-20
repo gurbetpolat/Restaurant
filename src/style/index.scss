@@ -1,0 +1,71 @@
+  @import url(components/Footer.scss);
+  @import url(components/Header.scss);
+  @import url(components/Headermenu.scss);
+  @import url(components/Mobil.scss);
+
+  @import url(pages/About.scss);
+  @import url(pages/Home.scss);
+  @import url(pages/Jobs.scss);
+  @import url(pages/Menu.scss);
+  @import url(pages/App.scss);
+  
+  
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800&display=swap');
+
+
+
+  body {
+      font-family: "Martel Sans", sans-serif;
+
+      element.style {}
+
+      .hero-text {
+          max-width: 40rem;
+          margin-bottom: 2rem;
+      }
+
+      p {
+          margin-bottom: 0px;
+          font-size: 1rem;
+          line-height: 1.786;
+      }
+
+      p {
+          margin-top: 0;
+          margin-bottom: 10px;
+      }
+
+      * {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+      }
+
+      * {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+      }
+
+      user agent stylesheet p {
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+      }
+
+      .body {
+          font-size: 1rem;
+      }
+
+      body {
+          background-color: #f6efea;
+          font-family: 'Martel Sans', sans-serif;
+          color: #000;
+          font-size: 16px;
+          line-height: 1.25;
+          font-weight: 600;
+      }
+  }
